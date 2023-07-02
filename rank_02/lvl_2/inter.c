@@ -13,10 +13,10 @@ int	check_doublon(char *str, char c, int pos)
 	while (idx < pos)
 	{
 		if (str[idx] == c)
-			return (0);
+			return (1);
 		idx++;
 	}
-	return (1);
+	return (0);
 }
 
 // ||
